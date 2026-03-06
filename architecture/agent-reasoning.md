@@ -1,16 +1,25 @@
+# Reasoning Pipeline
 
-Agentforce then selects the most relevant topic that can handle this request.
+## Overview
 
----
+The Agentforce Service Agent processes every customer message through a structured reasoning pipeline. This pipeline allows the AI agent to interpret natural language and translate it into actions within Salesforce.
 
-# Step 3: Topic Selection
+## Reasoning Flow
 
-Topics organize the agent's reasoning logic.
+Customer Input  
+↓  
+Intent Detection  
+↓  
+Topic Selection  
+↓  
+Instruction Evaluation  
+↓  
+Customer Verification  
+↓  
+Action Selection  
+↓  
+Flow Execution  
+↓  
+Response Generation
 
-Each topic contains:
-
-• Instructions  
-• Actions  
-• Response logic  
-
-For this project, the primary topic is:
+This reasoning flow ensures that the agent can handle customer service requests in a predictable and secure way.
