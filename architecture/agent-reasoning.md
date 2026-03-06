@@ -1,10 +1,16 @@
 
-The message is sent through **Experience Cloud Embedded Messaging** and received by the Agentforce Service Agent.
+Agentforce then selects the most relevant topic that can handle this request.
 
 ---
 
-# Step 2: Intent Detection
+# Step 3: Topic Selection
 
-The AI model analyzes the customer message to determine the user's intent.
+Topics organize the agent's reasoning logic.
 
-Example detected intent:
+Each topic contains:
+
+• Instructions  
+• Actions  
+• Response logic  
+
+For this project, the primary topic is:
